@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mypy-bug"
+version = "0.1.0"
+description = ""
+authors = ["Devon Stewart <blast@hardchee.se>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mypy = {git = "https://github.com/python/mypy"}
+pydantic = {git = "https://github.com/pydantic/pydantic"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
